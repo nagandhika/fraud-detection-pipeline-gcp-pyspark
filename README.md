@@ -52,6 +52,23 @@ This logic is implemented in `fraud_detection.py` using PySpark.
 6. Explore results in BigQuery.
 7. Connect Looker Studio to BigQuery to build dashboards.
 
+
+## 🚀 Future Scope
+
+This project lays the foundation for a robust and scalable fraud detection system. Future enhancements include:
+
+### 🔄 Real-Time Streaming
+- Integrate **Google Cloud Pub/Sub** and **Dataflow (or Spark Streaming on Dataproc)** to handle live transaction data streams.
+- Build a real-time dashboard in Looker Studio for on-the-fly fraud monitoring.
+
+### 🧠 Machine Learning-Based Fraud Detection
+- Use **unsupervised ML algorithms** (like Isolation Forest, Autoencoders, or Clustering) to detect anomalies in transaction behavior.
+- Train models using historical fraud patterns stored in BigQuery.
+
+### 📈 Anomaly Detection & Alerts
+- Add automated alerts (via email/SMS) for flagged fraud cases using **Cloud Functions + Pub/Sub**.
+- Implement anomaly scoring with **PySpark MLlib** or **Vertex AI** for scalable training.
+
 ## 👤 Author
 
 **Nagandhika U**  
